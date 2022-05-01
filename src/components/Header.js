@@ -6,13 +6,13 @@ function Header() {
 
 
     return (
-      <div className="shadow-md border-b bg-white sticky top-0 p-3 z-50 ">
-      <div className="flex justify-between max-w-6xl mx-5 xl:mx-auto items-center ">
+      <div className="shadow-md border-b bg-white sticky top-0 p-4 z-50 ">
+      <div className="flex justify-between max-w-6xl mx-5 xl:mx-auto ">
         
 
           {/*LeftSide*/} 
           
-            <div className='relative hidden lg:inline-grid  w-24 cursor-pointer'>
+            <div className='relative hidden lg:inline-grid  w-24 cursor-pointer items-center justify-center'>
 
               <a href="/">
               <img 
@@ -69,8 +69,9 @@ function Header() {
               </>
   
           <button className="text-sm hover:text-neutral-600" >Sign In </button>
-  
-     </div>
+    
+    </div>
+   
       </div>
       </div>
     
