@@ -71,9 +71,9 @@ function Header() {
           <button className="text-sm hover:text-neutral-600" >Sign In </button>
     
     </div>
-   
+    </div>
       </div>
-      </div>
+      
     
     )
 }
