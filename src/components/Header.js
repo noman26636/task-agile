@@ -23,6 +23,59 @@ function Header() {
               />
                </a>
             </div>
+
+            <div className=" relative w-10  lg:hidden flex-shrink-0 cursor-pointer flex items-center justify-center">
+
+            <a href="/">
+            <img src='https://links.papareact.com/jjm' 
+                    layout="fill"
+                    alt="" 
+                    className="object-contain"
+              />
+           
+           </a>
             </div>
 
                </div>
+{/*Middle*/} 
+
+          
+<div className="max-w-xs">
+          <div className="relative mt-1 bg-gray-50  rounded-md ">
+                 <div className="absolute inset-y-0 pl-3 flex items-center pointer-events-none" >
+                         <SearchIcon className="h-5 w-5 text-gray-500"/>
+                 </div>
+               <input className="bg-gray-50 block w-full pl-10 sm:text-sm p-2 border-gray-300 focus:border-black rounded-md focus:ring-black " type="text" placeholder="Search"  />
+             </div>    
+          </div>
+             
+          {/*RightSide*/} 
+
+          <div className="flex items-center justify-end space-x-4">
+          <HomeIcon className="navBtn"/>
+          <MenuIcon className="h-12  md:hidden cursor-pointer"/>
+    
+    
+               <>
+              <div className=" relative navBtn">
+              <PaperAirplaneIcon className="navBtn rotate-45" />
+              <div className="absolute -top-2 -right-2 text-xs w-5 h-5 bg-red-500 rounded-full flex items-center justify-center animate-pulse text-white">3</div>
+              </div>
+                   
+                    <UserGroupIcon className="navBtn" />
+                    <HeartIcon className="navBtn" />
+                   <img className="h-10 w-10 rounded-full cursor-pointer" 
+                    src="https://cdn.utaustinbootcamps.com/wp-content/uploads/sites/119/2020/12/tes_gen_blog_code7-1-800x412.jpg"  
+                     alt="profile pic" />
+              </>
+  
+          <button className="text-sm hover:text-neutral-600" >Sign In </button>
+  
+   
+      </div>
+      </div>
+    
+    )
+}
+
+export default Header
