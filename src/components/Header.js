@@ -68,7 +68,7 @@ function Header() {
                      alt="profile pic" />
               </>
   
-          <button className="text-sm hover:text-neutral-600" >Sign In </button>
+          <button className="text-sm hover:text-neutral-500" >Sign In </button>
     
     </div>
     </div>
